@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1 id="outpute"></h1>
+    <script>
+
+ let result = function Rightnumber(arr){
+      arr = [6,7,8,9,10];
+      let n = 8;
+       for(n;n<arr.length;n++) {
+            let last = arr.pop(); arr.unshift(last);
+         }
+          return arr; } 
+          let x= result();
+  document.getElementById("outpute").innerHTML = x.reverse(); 
+
+
+
+     </script>
+
+
+
+</body>
+</html>
